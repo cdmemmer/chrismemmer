@@ -30,13 +30,13 @@ footer {
     font-size: 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .top {
         flex-direction: column;
     }
 
     .top p {
-        margin: 40px 0 0 0;
+        margin: 40px 20px 0 20px;
         text-align: center;
     }
 }
