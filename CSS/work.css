@@ -27,7 +27,7 @@ main i {
     padding: 0px 20px;
 }
 
-@media (max-width: 1075px) {
+@media (max-width: 1080px) {
     main {
         flex-direction: column;
         margin: 50px auto auto auto;
