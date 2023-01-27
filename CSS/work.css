@@ -12,46 +12,19 @@ main {
 
 a {
     text-decoration: none;
-    text-align: center;
 }
 
 main a {
-    font-size: 20px;
+    font-size: 18px;
 }
 
-main a p {
-    padding: 15px 30px 30px 30px;
+main a {
+    text-align: center;
+    margin: 15px 55px;
 }
 
-main i {
-    padding: 0px 20px;
-}
-
-@media (max-width: 1080px) {
+@media (max-width: 900px) {
     main {
-        flex-direction: column;
-        margin: 50px auto auto auto;
-        width: 45%;
+        margin-top: 20px;
     }
-
-    .it, .retail, .chemistry, .foods {
-            display: flex;
-            margin-bottom: 50px;
-            justify-content: left;
-        }
-
-    main a {
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .chemistry p {
-        margin-left: 30px
-    }
-
-
-    .foods i {
-        margin-right: 35px;
-    }
-
 }
