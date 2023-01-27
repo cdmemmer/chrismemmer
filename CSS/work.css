@@ -1,0 +1,57 @@
+main {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 200px auto auto auto;
+}
+
+.it, .retail, .chemistry, .foods {
+    color: #154360;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+main a {
+    font-size: 20px;
+}
+
+main a p {
+    padding: 15px 30px 30px 30px;
+}
+
+main i {
+    padding: 0px 20px;
+}
+
+@media (max-width: 1075px) {
+    main {
+        flex-direction: column;
+        margin: 50px auto auto auto;
+        width: 45%;
+    }
+
+    .it, .retail, .chemistry, .foods {
+            display: flex;
+            margin-bottom: 50px;
+            justify-content: left;
+        }
+
+    main a {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .chemistry p {
+        margin-left: 30px
+    }
+
+
+    .foods i {
+        margin-right: 35px;
+    }
+
+}
