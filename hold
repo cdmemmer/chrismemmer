@@ -1,0 +1,177 @@
+<div class="bottom">
+            <div class="row1">
+                <div class="word">
+                    <h1><u>Word of the Day</u></h1>
+                    <h2><a href="https://www.google.com/search?q=shenanigans&oq=Shenanigans&aqs=chrome.0.0i67i433l3j0i67l2j0i512l3j0i131i433i512l2.173j0j7&sourceid=chrome&ie=UTF-8">Shenanigans:</a></h2>
+                    <p>secret or dishonest activity or maneuvering.</p>
+                </div>
+                <div class="fact">
+                    <h1><u>Fact of the Day</u></h1>
+                    <p>You may be jealous of a bird's ability to fly, but it may soothe your envy to learn they can't live in space because
+                    they need gravity to swallow.</p>
+                    <h6><a href="https://www.womansday.com/life/entertainment/a37170576/fun-facts/">Source</a></h6>
+                </div>
+                <div class="history">
+                    <h1><u>This Day in History</u></h1>
+                    <p>1936 - Babe Ruth and Ty Cobb were among the first players to be elected to the Baseball Hall of Fame in Cooperstown, New York.</p>
+                    <h6><a href="https://www.britannica.com/on-this-day/January-29#:~:text=This%20Day%20in%20History%3A%20January%2029&text=On%20this%20day%20in%202002,%2C%20chemical%2C%20or%20biological%20weaponry.">Source</a></h6>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="comic">
+                    <h1><u>Comic of the Week</u></h1>
+                    <img src="/Images/comic.jpg" alt="comic">
+                </div>
+
+                <div class="restaurant">
+                    <h1><u>Restaurant of the Month</u></h1>
+                    <img src="/Images/gattis.jpeg" alt="Gattis in Evansville">
+                    <h2>Gattis</h2>
+                </div>
+            </div>
+        </div>
+
+
+        .row1 {
+        display: flex;
+        }
+        
+        .word {
+        flex: 1;
+        margin: 0px 50px 0px 0px;
+        padding: 13px 40px;
+        }
+        
+        .word h1 h2 p {
+        padding: 0px 60px;
+        }
+        
+        .word h1 {
+        font-size: 30px;
+        text-align: center;
+        }
+        .word h2 {
+        text-align: center;
+        }
+        
+        .word p {
+        text-align: center;
+        font-size: 18px;
+        }
+        
+        .word a {
+        color: black;
+        text-decoration: none;
+        }
+        
+        .fact {
+        flex: 1;
+        margin: 0px 50px 0px 0px;
+        padding: 13px 40px;
+        }
+        
+        .fact h1 {
+        text-align: center;
+        font-size: 30px;
+        }
+        
+        .fact p {
+        font-size: 18px;
+        text-align: center;
+        }
+        
+        .fact h6 {
+        font-size: 15px;
+        text-align: center;
+        }
+        
+        .history {
+        flex: 1;
+        margin: 0px 50px 0px 0px;
+        padding: 13px 40px;
+        }
+        
+        .history h1 {
+        text-align: center;
+        font-size: 28px;
+        }
+        
+        .history p {
+        font-size: 18px;
+        text-align: center;
+        }
+        
+        .history h6 {
+        font-size: 15px;
+        text-align: center;
+        }
+        
+        .row2 {
+        margin-top: 75px;
+        display: flex;
+        }
+        
+        .comic {
+        flex: 1;
+        margin: 0px 50px 45px 0px;
+        padding: 13px 40px;
+        }
+        
+        .comic h1 {
+        text-align: center;
+        font-size: 27px;
+        padding-bottom: 15px;
+        }
+        
+        .comic img {
+        margin: auto;
+        display: block;
+        width: 100%;
+        }
+        
+        
+        .restaurant {
+        background-color: #FAE5D3;
+        flex: 1;
+        margin: 0px 50px 45px 0px;
+        padding: 20px 40px;
+        }
+        
+        .restaurant h1 {
+        text-align: center;
+        font-size: 22px;
+        padding-bottom: 15px;
+        }
+        
+        .restaurant h2 {
+        font-size: 22px;
+        text-align: center;
+        }
+        
+        .restaurant img {
+        margin: auto;
+        display: block;
+        width: 100%;
+        }
+        
+        @media (max-width: 950px) {
+        .row1, .row2{
+        flex-direction: column;
+        }
+        
+        .fact, .history {
+        margin: 80px 0px 0px 0px;
+        }
+        
+        .word {
+        margin: 0px;
+        }
+        
+        .comic {
+        margin: 0px;
+        }
+        
+        .restaurant {
+        margin: 80px 0px 40px 0px;
+        }
+        }
