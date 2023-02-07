@@ -1,0 +1,52 @@
+.top {
+    display: flex;
+    margin: 40px auto auto auto;
+    justify-content: space-around;
+}
+
+.text {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: auto 40px auto auto;
+}
+
+.text p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.text p b {
+    font-size: 1.2rem;
+}
+
+.photo img {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 850px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        margin: auto;
+    }
+
+    .photo img {
+        width: 300px;
+        height: auto;
+        margin: 35px auto auto auto;
+    }
+
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
