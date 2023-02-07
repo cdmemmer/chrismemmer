@@ -13,7 +13,7 @@
 }
 
 .text p {
-    text-align: justify;
+    text-align: left;
     font-size: 1.1rem;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .photo img {
-    max-width: 650px;
+    max-width: 600px;
     width: 100%;
     height: auto;
 }
