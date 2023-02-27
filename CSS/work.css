@@ -56,3 +56,7 @@ a {
 #foods {
     color: #964B00;
 }
+
+.icon:hover {
+    text-transform: uppercase;
+}

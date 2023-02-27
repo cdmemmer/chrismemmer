@@ -37,7 +37,7 @@ nav {
 }
 
 .navbar-links li:hover {
-    background-color: grey;
+    text-transform: uppercase;
 }
 
 .toggle-button {
