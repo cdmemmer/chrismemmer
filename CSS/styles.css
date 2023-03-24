@@ -27,6 +27,13 @@ html {
     text-align: center;
 }
 
+.top p {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
 .info {
     text-align: center;
     padding-top: 20px;
@@ -95,4 +102,21 @@ button:hover {
 
 #history {
     color: #A6ACAF;
+}
+
+#hello {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#date {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 850px) {
+    #todaysDate {
+        display: none;
+    }
 }
