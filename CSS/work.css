@@ -58,5 +58,23 @@ a {
 }
 
 .icon:hover {
-    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
 }

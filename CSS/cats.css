@@ -1,0 +1,29 @@
+main {
+    width: 80%;
+    margin: 45px auto auto auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
+
+.cats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 15px auto 25px auto;
+}
+.cat {
+    margin: 10px;
+}
