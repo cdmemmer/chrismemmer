@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    justify-content:center;
+    margin-top: 90px;
+}
+
+.cover, .stats {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #F2F3F4;
+}
+
+tr{
+    background-color: white;
+}
+
+.review {
+    margin: auto;
+}
+
+.review p {
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+img {
+    height: 450px;
+}
+
+@media (max-width: 920px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .cover, .stats {
+        padding-bottom: 35px;
+    }
+    h1 {
+        margin-bottom: 20px;
+    }
+
+}

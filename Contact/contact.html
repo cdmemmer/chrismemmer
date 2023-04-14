@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="id=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/everypage.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <script src="/JavaScript/navbar.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div class="name"><a href="/index.html">CHRIS MEMMER</a></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul class="hi">
+                <li><a href="/Work/work.html">Work</a></li>
+                <li><a href="/Cats/cats.html">Cats</a></li>
+                <li><a href="/Books/reading.html">Books</a></li>
+                <li><a href="/Contact/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <form action="https://formspree.io/f/xdovpbpe" method="POST">
+    <h1>Contact Form</h1>
+    <input type="text" name="first" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <textarea name="message" placeholder="Enter Your Message" cols="60" rows="5" autocomplete="off" required></textarea>
+    <button type="submit">Send Message</button>
+    </form>
+    </main>
