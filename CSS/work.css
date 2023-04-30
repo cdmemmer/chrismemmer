@@ -47,6 +47,14 @@ a {
     color: #964B00;
 }
 
+#classes {
+    color: #2E86C1;
+}
+
+#resume {
+    color: #FDEBD0;
+}
+
 .icon:hover {
     font-size: 17px;
 }

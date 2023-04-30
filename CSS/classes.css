@@ -1,0 +1,9 @@
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    min-height: 300px;
+    margin: 30px;
+}

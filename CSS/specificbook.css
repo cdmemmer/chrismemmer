@@ -39,6 +39,25 @@ img {
     height: 450px;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 9px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
 @media (max-width: 920px) {
     section {
         flex-direction: column;
