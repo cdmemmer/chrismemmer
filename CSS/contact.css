@@ -45,3 +45,23 @@ button:hover {
     opacity: 70%;
     cursor: pointer;
 }
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto auto auto;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 150px;
+    padding: 10px;
+}
+
+#linked {
+    color: #0072b1;
+}
+
+#email {
+    color: burlywood;
+}

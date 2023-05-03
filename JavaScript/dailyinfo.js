@@ -1,24 +1,4 @@
-if (month == "April" && day1 == "25") {
-    document.getElementById("wordOfDay").innerHTML = "Laden – heavily loaded or weighed down";
-    document.getElementById("factOfDay").innerHTML = "John Adams was the second president, but he was the first to live in the White House.";
-    document.getElementById("dayInHistory").innerHTML = "1990 - The Hubble Space Telescope, a sophisticated optical observatory built in the United States under the supervision of NASA, was placed into operation this day in 1990 by the crew of the space shuttle Discovery.";
-} else if (month == "April" && day1 == "26") {
-    document.getElementById("wordOfDay").innerHTML = "Name – a word or a combination of words by which a person, place, or thing, a body or class, or any object of thought is designated, called, or known";
-    document.getElementById("factOfDay").innerHTML = "The first president to take in a Major League Baseball game while in office was Benjamin Harrison in 1892.";
-    document.getElementById("dayInHistory").innerHTML = "1768- The prestigious English Royal Academy of Arts, led by its first president, Joshua Reynolds, hosted its first art opening.";
-} else if (month == "April" && day1 == "27") {
-    document.getElementById("wordOfDay").innerHTML = "Hello - used as a greeting or to begin a phone conversation.";
-    document.getElementById("factOfDay").innerHTML = "There are 132 rooms, 35 bathrooms, and 6 levels in the White House to accommodate all the residents, workers and guests who live in it.";
-    document.getElementById("dayInHistory").innerHTML = "1822 - Ulysses S. Grant, who commanded the Union armies during the late years (1864–65) of the American Civil War and later served as president of the United States (1869–77), was born.";
-} else if (month == "April" && day1 == "28") {
-    document.getElementById("wordOfDay").innerHTML = "Zephyr – soft gentle breeze";
-    document.getElementById("factOfDay").innerHTML = "There are 412 doors, 147 windows, 28 fireplaces, 8 staircases, and 3 elevators in the White House.";
-    document.getElementById("dayInHistory").innerHTML = "2003- Apple launched the iTunes Store, which gave users the ability to purchase and download music from the Internet directly to their iTunes library; in 2010 the store sold its 10 billionth song.";
-} else if (month == "April" && day1 == "29") {
-    document.getElementById("wordOfDay").innerHTML = "Tenacious – keep a firm hold on something";
-    document.getElementById("factOfDay").innerHTML = "There are 412 doors, 147 windows, 28 fireplaces, 8 staircases, and 3 elevators in the White House.";
-    document.getElementById("dayInHistory").innerHTML = "The animated TV series The Simpsons aired its 636th episode, becoming the longest-running scripted prime-time show in the United States. ";
-} else if (month == "April" && day1 == "30") {
+if (month == "April" && day1 == "30") {
     document.getElementById("wordOfDay").innerHTML = "Rife – of common occurrence";
     document.getElementById("factOfDay").innerHTML = "Woodrow Wilson was the first president to travel to Europe while in office";
     document.getElementById("dayInHistory").innerHTML = "1939- The National Broadcasting Company made the first public television broadcast in the United States, at the New York World's Fair.";
@@ -45,9 +25,9 @@ else if (month == "May" && day1 == "3") {
     document.getElementById("factOfDay").innerHTML = "In 1751, George Washington accompanied his older half-brother Lawrence Washington to the island of Barbados. This was the only time George Washington ever left the mainland of North America.";
     document.getElementById("dayInHistory").innerHTML = "1778 - George Washington appoints Friedrich Wilhelm von Steuben Inspector General of the Continental Army";
 } else if (month == "May" && day1 == "6") {
-    document.getElementById("wordOfDay").innerHTML = "";
-    document.getElementById("factOfDay").innerHTML = "";
-    document.getElementById("dayInHistory").innerHTML = "";
+    document.getElementById("wordOfDay").innerHTML = "Hardware - tools, machinery, and other durable equipment";
+    document.getElementById("factOfDay").innerHTML = "The time is always 9:41 in every iPhone ad:";
+    document.getElementById("dayInHistory").innerHTML = "1998 - Steve Jobs introduced Apple's first iMac, a personal computer that became hugely successful and helped revive the struggling company.";
 } else if (month == "May" && day1 == "7") {
     document.getElementById("wordOfDay").innerHTML = "";
     document.getElementById("factOfDay").innerHTML = "";

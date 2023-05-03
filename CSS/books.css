@@ -1,8 +1,4 @@
-.top10,
-.readingnow,
-.other,
-.authors,
-.forward {
+.readingsection {
     text-align: center;
     display: flex;
     overflow-x: auto;
