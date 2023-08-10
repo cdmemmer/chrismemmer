@@ -7,18 +7,16 @@
 
 .top img {
     height: 300px;
-} 
+}
 
 .top h1 {
     font-size: 1.7rem;
     color: #323232;
-    margin-left: 25px;
     text-align: center;
 }
 
 .top h2 {
     margin-top: 15px;
-    margin-left: 25px;
     font-size: 1.2rem;
     text-align: center;
 }
@@ -31,8 +29,16 @@
 }
 
 .info {
-    text-align: center;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 50px;
+    padding: 20px;
 }
 
 button {
@@ -51,7 +57,7 @@ button:hover {
     cursor: pointer;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
     .top {
         display: flex;
         flex-direction: column;
@@ -62,7 +68,7 @@ button:hover {
         height: auto;
         margin: auto auto 25px auto;
     }
-}
+} 
 
 .bottom {
     width: 80%;
@@ -72,7 +78,9 @@ button:hover {
     justify-content: space-around;
 }
 
-.word, .fact, .history {
+.word,
+.fact,
+.history {
     text-align: center;
     margin: 40px 20px 0px 20px;
 }
@@ -83,7 +91,7 @@ button:hover {
 }
 
 .bottom p {
-    font-size: .9rem;
+    font-size: 1.1rem;
     text-align: center;
     max-width: 200px;
 }
@@ -102,17 +110,11 @@ button:hover {
 
 #hello {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 #date {
     display: flex;
     align-items: center;
-}
-
-@media (max-width: 850px) {
-    #todaysDate {
-        display: none;
-    }
 }

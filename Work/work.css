@@ -5,6 +5,30 @@
     background-color: white;
 }
 
+#overview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 25px 15px 25px 15px;
+}
+
+#overview:hover {
+    background-color: #FAE5D3;
+}
+
+#default {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+#default img {
+    height: 400px;
+}
+
 .tab {
     display: flex;
     flex-direction: column;
@@ -20,7 +44,7 @@
     background-color: #FDF2E9;
     width: 150px;
     position: relative;
-}
+} 
 
 .tab button:hover {
     background-color: #FAE5D3;
@@ -52,7 +76,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     height: 300px;
 }
 
@@ -83,4 +107,38 @@
 span {
     font-family: 'Comme', sans-serif;
     ;
+}
+
+@media (max-width: 1000px) {
+    .all {
+        flex-direction: column;
+    }
+
+    .tab {
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+
+    .tab button {
+        cursor: pointer;
+        padding: 25px 15px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 800px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 305px) {
+    .tab button {
+        cursor: pointer;
+        padding: 25px 0px;
+        width: 100px;
+    }
 }

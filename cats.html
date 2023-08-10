@@ -1,72 +1,93 @@
+This page is under construction
+<br>
+<a href="/index.html">Back to home</a>
+<!--
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Cats</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="id=edge">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/CSS/everypage.css">
-        <link rel="stylesheet" href="/CSS/cats.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <link rel="icon" href="/Images/Cats/evvie.jpg">
-        <script src="/JavaScript/navbar.js" defer></script>
-    </head>
 
-        <nav>
-            <div class="name"><a href="/index.html">CHRIS MEMMER</a></div>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-                <ul class="hi">
-                    <li><a href="/Work/work.html">Work</a></li>
-                    <li><a href="/cats.html">Cats</a></li>
-                    <li><a href="/books.html">Books</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <main>
-            <h1>Cats</h1>
-            <div class="all">
-                <div class="tab">
-                    <button class="tablinks" onclick="openCat(event, 'Tally')">Tally</button>
-                    <button class="tablinks" onclick="openCat(event, 'Evvie')">Evvie</button>
-                    <button class="tablinks" onclick="openCat(event, 'LittleGirl')">Little Girl</button>
-                    <button class="tablinks" onclick="openCat(event, 'BigGirl')">Big Girl</button>
-                    <button class="tablinks" onclick="openCat(event, 'Tommy')">Tommy</button>
-                </div>
+<head>
+    <title>Cats</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="id=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Cats/cats.css">
+    <link rel="stylesheet" href="/Multiple Pages/everypage.css">
+    <link rel="icon" href="/Images/Cats/evvie.jpg">
+    <script src="/Multiple Pages/navbar.js" defer></script>
+</head>
 
-                <p id="start">Click each cat to learn more about him/her!</p>
-                <div id="Tally" class="tabcontent">
-                    <h3>Tally</h3>
-                    <p></p>
-                </div>
-                <div id="Evvie" class="tabcontent">
-                    <h3>Evvie</h3>
-                    <p></p>
-                </div>
-                <div id="LittleGirl" class="tabcontent">
-                    <h3>Little Girl</h3>
-                    <p></p>
-                </div>
-                <div id="BigGirl" class="tabcontent">
-                    <h3>Big Girl</h3>
-                    <p></p>
-                </div>
-                <div id="Tommy" class="tabcontent">
-                    <h3>Tommy</h3>
-                    <p></p>
-                </div>
+<body>
+    <nav>
+        <div class="name"><a href="/index.html">CHRIS MEMMER</a></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul class="hi">
+                <li><a href="/work.html">Work</a></li>
+                <li><a href="/cats.html">Cats</a></li>
+                <li><a href="/books.html">Books</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <main>
+
+            <div class="tab">
+                <button class="tablinks" onclick="openCat(event, 'Tally')"><img src="/Cats/Images/Tally/tally1.jpeg" alt=""></button>
+                <button class="tablinks" onclick="openCat(event, 'Evvie')">Evvie</button>
+                <button class="tablinks" onclick="openCat(event, 'LittleGirl')">Little Girl</button>
+                <button class="tablinks" onclick="openCat(event, 'BigGirl')">Big Girl</button>
+                <button class="tablinks" onclick="openCat(event, 'Tommy')">Tommy</button>
             </div>
 
-            <script src="/JavaScript/cats.js"></script>
-        </main>
-    </body>
+            <br>
+            <br>
+
+            <div class="all"></div>
+
+            <p id="start">Click each cat to learn more about him/her!</p>
+
+            <div id="Tally" class="tabcontent">
+                <div class="tally-images">
+                    <div class="image-center">
+                        <img src="/Cats/Images/Tally/tally1.jpeg" id="tallyimage">
+                    </div>
+                    <div class="buttons">
+                        <button class="prev" id="prev">Previous</button>
+                        <p class="tracker" id="info">1/3</p>
+                        <button class="next" id="next">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Evvie" class="tabcontent">
+                <h3>Evvie</h3>
+                <p></p>
+            </div>
+
+            <div id="LittleGirl" class="tabcontent">
+                <h3>Little Girl</h3>
+                <p></p>
+            </div>
+
+            <div id="BigGirl" class="tabcontent">
+                <h3>Big Girl</h3>
+                <p></p>
+            </div>
+
+            <div id="Tommy" class="tabcontent">
+                <h3>Tommy</h3>
+                <p></p>
+            </div>
+        </div>
+    </main>
+    <script src="/Cats/cats.js"></script>
+</body>
+
 </html>

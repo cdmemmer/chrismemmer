@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #E9F1FA;
+    background-color: #EAEDED;
 }
 
 main {
@@ -29,7 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #E9F1FA;
+    background-color: #EAEDED;
     color: white;
     margin: 25px auto auto auto;
     min-height: 80px;
@@ -68,7 +68,7 @@ nav {
 }
 
 .name:hover {
-    font-size: 24px;
+    font-size: 23px;
 }
 
 .toggle-button {
@@ -89,7 +89,7 @@ nav {
     border-radius: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .toggle-button {
         display: flex;
     }
