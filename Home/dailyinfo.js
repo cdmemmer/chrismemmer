@@ -18,14 +18,8 @@ document.getElementById("day").innerHTML = day1 + ",";
 let year = d.getFullYear();
 document.getElementById("year").innerHTML = year;
 
-if (month == "August" && day1 == "10") {
-    document.getElementById("wordOfDay").innerHTML = "Declaration – a formal or explicit statement or announcement";
-    document.getElementById("factOfDay").innerHTML = "The Declaration and Constitution were hidden  during World War II";
-    document.getElementById("dayInHistory").innerHTML = "1776 - News reaches London that the Americans had drafted the Declaration of Independence";
+if (month == "August" && day1 == "11") {
+    document.getElementById("wordOfDay").innerHTML = "Debouch – emerge from a narrow or confined space into a wide, open area.";
+    document.getElementById("factOfDay").innerHTML = "In the 2019 regular season, the average baseball game lasted for 3 hours, 5 minutes, 35 seconds.";
+    document.getElementById("dayInHistory").innerHTML = "1929 - New York Yankees hitter Babe Ruth becomes the first MLB player to hit 500 home runs in a 6-5 loss to Cleveland";
 }
-
-//else if (month == "August" && day1 == "11") {
-//    document.getElementById("wordOfDay").innerHTML = "Altitudinous - extending to a great distance upward";
-//    document.getElementById("factOfDay").innerHTML = "The current tallest building in the world is the Burj Khalifa";
-//    document.getElementById("dayInHistory").innerHTML = "1931 - The Empire State Building in New York City officially opened; for four decades it was the tallest building in the world, and it is considered a U.S. landmark.";
-//}

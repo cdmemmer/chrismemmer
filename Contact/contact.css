@@ -1,40 +1,6 @@
-.all{
-    background-color: #E5E8E8;
-    padding: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 70%;
-    margin: auto;
-    align-items: center;
-}
-
-.box {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    border-radius: 10px;
-    width: 800px;
-    margin: auto;
-}
-
-.box-left p {
-    font-size: 14px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.box-left img {
-    height: 400px;
-}
-
-.box-right {
-    display: flex;
-}
-
 input {
     background-color: #E5E8E8;
-    width: 70%;
+    width: 40%;
     font-size: 18px;
     padding: 6px 6px;
     border: none;
@@ -45,7 +11,7 @@ input {
 
 textarea {
     background-color: white;
-    width: 70%;
+    width: 40%;
     font-size: 18px;
     padding: 6px 6px;
     border-radius: 15px;
