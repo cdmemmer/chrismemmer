@@ -1,10 +1,10 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="id=edge">
     <link rel="stylesheet" href="/Multiple Pages/everypage.css">
     <link rel="stylesheet" href="/Contact/contact.css">
     <link rel="icon" href="/Multiple Pages/CM.jpg">
@@ -17,7 +17,7 @@
 
 <body>
     <nav>
-        <div class="name"><a href="/index.html">CHRIS MEMMER</a></div>
+        <div class="name"><a href="/index.html">Home</a></div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -34,14 +34,17 @@
     </nav>
 
     <main>
-        <h1>Contact Form</h1>
-        <form action="https://formspree.io/f/xdovpbpe" method="POST">
-            <input type="text" name="first" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email Address" required>
-            <textarea name="message" placeholder="Enter Your Message" cols="60" rows="5" autocomplete="off"
-                required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <h1>Contact</h1>
+        <div class="links">
+            <div id="emailLink">
+                <h2>Email</h2>
+                <a href="mailto:cm@cdmemmer.com"><i class="fa-solid fa-envelope fa-10x" id="email"></i></a>
+            </div>
+            <div id="linkedinLink">
+                <h2>LinkedIn</h2>
+                <a href="www.linkedin.com/in/chrismemmer"><i class="fa-brands fa-linkedin fa-10x" id="linkedin"></i></a>
+            </div>
+        </div>
     </main>
 </body>
 
