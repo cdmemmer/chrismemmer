@@ -1,55 +1,30 @@
-input {
-    background-color: #E5E8E8;
-    width: 40%;
-    font-size: 18px;
-    padding: 6px 6px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin: auto auto 20px auto;
+.links {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-textarea {
-    background-color: white;
-    width: 40%;
-    font-size: 18px;
-    padding: 6px 6px;
-    border-radius: 15px;
-    border-color: black;
-    margin: auto auto 20px auto;
-    display: flex;
-    resize: vertical;
- }
+#emailLink {
+    background-color: #FCF3CF;
+}
 
-input:focus-within {
-    outline: none;
-    border-color: black;
-    border-width: 3px;
-} 
+#email{
+    color: #F1C40F;
+}
 
-textarea:focus-within {
-    outline: none;
-    border-color: black;
-    border-width: 3px;
-    }
+#linkedinLink {
+    background-color: #D6EAF8;
+}
 
-button {
-    border-radius: 20px;
-    font-size: 22px;
-    padding: 10px 18px;
+#linkedin {
+    color: #1A5276;
+}
+
+#emailLink, #linkedinLink {
+    padding: 30px;
     text-align: center;
-    display: flex;
-    margin: auto;
-    background-color: #CCD1D1;
+    min-width: 40%;
+    margin: 30px;
+    border: 4px solid black;
+    border-radius: 20px;
 }
-
-button:hover {
-    cursor: pointer;
-    background-color: #B2BABB;
-}
-
-button:active {
-    box-shadow: 0 5px black;
-    transform: translateY(4px);
-}
-
