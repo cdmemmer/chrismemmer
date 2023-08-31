@@ -1,7 +1,7 @@
 function openJob(evt, jobName) {
     //Hide default
-    var adefault = document.getElementById("default")
-    adefault.style.display = "none"
+    var defaultContent = document.getElementById("default")
+    defaultContent.style.display = "none"
 
     // Get all elements with class="tabcontent" and hide them
     var tabcontent = document.getElementsByClassName("tabcontent");
@@ -18,5 +18,4 @@ function openJob(evt, jobName) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(jobName).style.display = "block";
     evt.currentTarget.className += " active";
-
-  }
+}
