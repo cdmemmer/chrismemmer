@@ -1,12 +1,12 @@
 .top {
     display: flex;
-    width: 80%;
-    margin: 45px auto auto auto;
     justify-content: space-around;
 }
 
 .top img {
     height: 300px;
+    border: 3px black solid;
+    border-radius: 20px;
 }
 
 .top h1 {
@@ -16,13 +16,11 @@
 }
 
 .top h2 {
-    margin-top: 15px;
     font-size: 1.2rem;
     text-align: center;
 }
 
 .top p {
-    margin-top: 15px;
     margin-left: 5px;
     font-size: 1.2rem;
     text-align: center;
@@ -41,63 +39,57 @@
     padding: 20px;
 }
 
-button {
-    background-color: #323232;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    border-radius: 15px;
-    margin-top: 25px;
-}
-
-button:hover {
-    cursor: pointer;
+#dateInfo {
+    display: flex;
 }
 
 @media (max-width: 950px) {
     .top {
-        display: flex;
         flex-direction: column;
     }
 
     .top img {
-        max-width: 70%;
+        max-width: 60%;
         height: auto;
-        margin: auto auto 25px auto;
+        margin: auto auto 50px auto;
     }
+
+    .info {
+        height: fit-content;
+        width: 70%;
+        margin: auto;
+    }
+
 } 
 
 .bottom {
-    width: 80%;
-    margin: 25px auto 50px auto;
+    margin: 25px auto auto auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.word,
-.fact,
-.history {
-    text-align: center;
-    margin: 40px 20px 0px 20px;
-}
-
 .bottom h3 {
     font-size: 1.3rem;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .bottom p {
     font-size: 1.1rem;
-    text-align: center;
+    text-align: justify;
     max-width: 200px;
 }
 
+.stat {
+    text-align: center;
+    margin: 40px 12px 0px 12px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
 #word {
-    color: #52BE80;
+    color: #3498DB;
 }
 
 #fact {
@@ -105,16 +97,17 @@ button:hover {
 }
 
 #history {
-    color: #A6ACAF;
+    color: #27AE60;
 }
 
-#hello {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#wordStat {
+    background-color: #EBF5FB;
 }
 
-#date {
-    display: flex;
-    align-items: center;
+#factStat {
+    background-color: #FDEDEC;
+}
+
+#historyStat {
+    background-color: #EAFAF1;
 }
